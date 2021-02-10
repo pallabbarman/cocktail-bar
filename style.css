@@ -1,0 +1,29 @@
+.banner{
+    margin-top: 50px;
+}
+#drinks{
+    display: flex; 
+    flex-wrap: wrap;
+    padding:0 50px;
+    grid-gap: 40px;
+    justify-content: center;
+}
+#drinks img{
+    width: 300px;
+    border-radius: 10px;
+}
+.drink-item{
+    border: 1px dimgrey;
+    border-radius: 10px;
+    text-align: center;
+    width: 300px;
+    background-color: darkgrey;
+    box-shadow: 5px 5px 10px dimgray;
+}
+.drink-item:hover{
+    background-color: gray;
+    cursor: pointer;
+}
+.drink-item h4{
+    padding:20px 0;
+}
